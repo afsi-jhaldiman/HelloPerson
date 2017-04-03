@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\21807\Desktop\SRE-MigrationTest\HelloPerson\HelloPerson\root\PackageTmp" />
+  <setAcl path="C:\Users\21807\Desktop\SRE-MigrationTest\HelloPerson\HelloPerson\root\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\21807\Desktop\SRE-MigrationTest\HelloPerson\HelloPerson\root\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>
