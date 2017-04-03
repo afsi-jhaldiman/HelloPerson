@@ -1,4 +1,5 @@
 var solutionFile = "./HelloPerson.sln";
+var projectFile = "./HelloPerson/HelloPerson.csproj";
 var outputDirectory = "./.build";
 var packageDirectory = outputDirectory + "/package";
 var workDirectory = outputDirectory + "/work";
@@ -25,7 +26,7 @@ Task("Build")
   .IsDependentOn("Clean")
   .Does(() =>
   {
-    MSBuild(solutionFile, new MSBuildSettings()
+    MSBuild(projectFile, new MSBuildSettings()
       .SetConfiguration(configuration)
       .SetVerbosity(Verbosity.Minimal)
       .WithProperty("AllowedReferenceRelatedFileExtensions", "none")
